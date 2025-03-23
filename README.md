@@ -56,5 +56,5 @@ Run the `Fine_Tuning_Stable_Diffusion.ipynb` notebook in a Jupyter environment t
 ## Resources
 - [CompVis/stable-diffusion-v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4)
 - [diffusers/examples/text_to_image/train_text_to_image_lora.py](https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_lora.py)
-- [myntra_link_scraper.py]([https://github.com/Architrixs/myntra_scraper](https://github.com/Architrixs/myntra_scraper/blob/main/myntra_link_scraper.py))
+- [myntra_link_scraper.py](https://github.com/Architrixs/myntra_scraper/blob/main/myntra_link_scraper.py)
 
