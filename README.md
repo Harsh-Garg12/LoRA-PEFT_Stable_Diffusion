@@ -46,28 +46,26 @@ The trained LoRA model is available on Hugging Face:
 ## How to Use
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/LoRA-PEFT_Stable_Diffusion.git
-cd LoRA-PEFT_Stable_Diffusion
+git clone https://github.com/Harsh-Garg12/LoRA-PEFT_Stable_Diffusion.git
+cd LoRA-PEFT_Stable_Diffusion/Dataset
 ```
 
-### 2. Install Dependencies
-Ensure you have the required dependencies installed:
+### 2. Running the Scraper
+First, for any product category page run the following command to scrap each product links:
 ```bash
-pip install -r requirements.txt
+python myntra_link_scraper.py <no. of pages> <output_filepath>
 ```
-
-### 3. Running the Scraper
 To scrape shoe images and descriptions from Myntra, run:
 ```bash
-python Dataset/final_shoe_scraper.py
+python final_shoe_scraper.py
 ```
 For a multithreaded version:
 ```bash
-python Dataset/final_shoe_scraper_multithreading.py
+python final_shoe_scraper_multithreading.py
 ```
 
-### 4. Fine-Tune Stable Diffusion
-Run the `Fine_Tuning_Stable_Diffusion.ipynb` notebook in a Jupyter environment to train the model using LoRA.
+### 3. Fine-Tune Stable Diffusion
+Run the `Fine_Tuning_Stable_Diffusion.ipynb` notebook in a google colab to train the model using LoRA.
 
 ## Resources
 - [CompVis/stable-diffusion-v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4)
