@@ -17,15 +17,15 @@ LoRA-PEFT_Stable_Diffusion/
 
 ## Features
 
-LoRA-based fine-tuning for efficient model training.
+- LoRA-based fine-tuning for efficient model training.
 
-Hugging Face Hub integration for dataset and model storage.
+- Hugging Face Hub integration for dataset and model storage.
 
-Dataset collected using Selenium and WebDriver.
+- Dataset collected using Selenium and WebDriver.
 
-Google Colab support with mixed-precision training (fp16).
+- Google Colab support with mixed-precision training (fp16).
 
-Gradient checkpointing and memory optimizations for training on limited VRAM.
+- Gradient checkpointing and memory optimizations for training on limited VRAM.
 
 ## Dataset Collection
 The dataset was created using Selenium and Python scripts for web scraping. The `Dataset/` folder contains scripts to scrape shoe images and captions from **Myntra**.
