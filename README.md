@@ -2,6 +2,10 @@
 
 This repository provides an implementation of fine-tuning **Stable Diffusion** using **LoRA (Low-Rank Adaptation)** and **PEFT (Parameter Efficient Fine-Tuning)** on a custom dataset of shoe images and captions. The dataset was collected through Selenium-based web scraping and later used for fine-tuning Stable Diffusion.
 
+
+https://github.com/user-attachments/assets/55252fbe-2e05-4340-8f36-1ad9329bdfce
+
+
 ## Repository Structure
 
 ```
